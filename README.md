@@ -1,6 +1,6 @@
 # WeatherApi2
-![1](https://github.com/user-attachments/assets/72deb880-d684-43f8-8030-bafaf9a9e242)
-![2](https://github.com/user-attachments/assets/da8953ef-88c6-40c8-97ea-68965bde0495)
+![1](https://github.com/user-attachments/assets/1f50a607-31cf-4a47-8518-d01155d75e1d)
+![3](https://github.com/user-attachments/assets/c701262a-afb5-404e-ac9d-557536fdc4f1)
 
 - please check the demo with vpn
 - [Demo Project](https://zahrakrmi.github.io/WeatherApi2/)
