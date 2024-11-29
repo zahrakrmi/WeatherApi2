@@ -1,0 +1,229 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-position-y: top;
+    background-size: cover;
+    background-image: url('/asset/img/Rain.gif');
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.box{
+    width: 100%;
+    font-family: "Amita", serif;
+    height: 100vh;
+    >.searchBox{
+        width: 400px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        margin: 150px auto;
+        position: relative;
+        >input{
+            height: 50px;
+            width: 90%;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            margin: 20px;
+            background-color: rgba(169, 169, 169, 0.127);
+            &::placeholder{
+                padding: 10px;
+                font-size: 15px;
+            }
+            &:focus{
+               color: white;
+               padding-left: 20px;
+            }
+        }
+        >.btn{
+            border: none;
+            >i{
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                background-color: orange;
+                display: flex;
+                justify-content: center;
+                color: white;
+                align-items: center;
+            }
+        }
+        #s1{
+            width: 100%;
+            >img{
+                margin-inline: 120px;
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+            }
+            >h4{
+                width: 100%;
+                color: rgba(255, 166, 0, 0.567);
+                text-align: center;
+            }
+        }
+        >.myname{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            >#temp{
+                font-size: 20px;
+                color: white;
+            }
+        }
+        >.degree{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            >#mydegree{
+                font-size: 20px;
+                color: white;
+            }
+        }
+        >.icon{
+            margin-left: 170px;
+            width: 60px;
+            height: 50px;
+            >#img{
+                width: 100%;
+            }
+        }
+        >.humidity{
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+            >#myhumidity{
+                font-size: 15px;
+                color: white;
+                margin-left: 30px;
+            }
+            >.speed{
+                width: 50%;
+                margin-left: 50px;
+                >#myspeed{
+                    font-size: 15px;
+                    color: white;
+                }
+            }
+        }
+        >.main{
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+            >#mymain{
+                width: 40%;
+                font-size: 15px;
+                color: white;
+                margin-left: 40px;
+            }
+            >.description{
+                width: 50%;
+                margin-left: 10px;
+                >#mydescription{
+                    font-size: 15px;
+                    color: white;
+                }
+            }
+        }
+    }
+  
+}
+.me {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    z-index: 1001;
+    /* border: 1px solid red; */
+
+    >div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        &:first-of-type {
+            border-radius: 49% 51% 46% 54% / 74% 77% 23% 26%;
+            background-color: #65425f;
+            animation: anime2 infinite alternate 2s;
+
+        }
+
+        &:last-of-type {
+            background-image: url(../img/zahra.jpg);
+            background-size: cover;
+            border-radius: 49% 51% 46% 54% / 37% 31% 69% 63%;
+            animation: anime1 infinite alternate 2s;
+
+        }
+    }
+
+    &:hover {
+        >a {
+            left: -30px;
+            opacity: 1;
+
+            &:nth-of-type(2) {
+                left: -70px;
+            }
+
+            &:nth-of-type(3) {
+                left: -70px;
+            }
+
+            &:nth-of-type(4) {
+                left: -30px;
+            }
+        }
+    }
+
+    >a {
+        position: absolute;
+        left: 30px;
+        text-decoration: none;
+        font-size: 30px;
+        transition: 1s;
+        color: rgb(255, 255, 255);
+        opacity: 0;
+
+        &:first-of-type {
+            top: 0;
+
+        }
+
+        &:nth-of-type(2) {
+            top: 40px;
+        }
+
+        &:nth-of-type(3) {
+            top: 90px;
+        }
+
+        &:nth-of-type(4) {
+            top: 140px;
+        }
+
+    }
+
+
+}
+
+@keyframes anime1 {
+to {
+    border-radius: 49% 51% 48% 52% / 46% 46% 54% 54%;
+}
+}
+
+@keyframes anime2 {
+to {
+    border-radius: 70% 30% 44% 56% / 46% 34% 66% 54%;
+}
+}
+
