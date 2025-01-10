@@ -8,4 +8,4 @@
 - Created - 2024-11-28
 - Code by me
 - Technologies Used - Html , css , JavaScript 
-- How to reach me : with my [linkedin](https://www.linkedin.com/in/zahra-karami-7643ba231/)
+- How to reach me : with my [linkedin](https://www.linkedin.com/in/zahra-karami-7643ba231/) 
